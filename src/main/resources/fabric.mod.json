@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "requiem",
+	"version": "${version}",
+	"name": "Requiem",
+	"description": "Requiem adds multiple combat and death related items.",
+	"authors": [
+		"Moof"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Mwffins/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/requiem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.moof.requiem.Requiem"
+		],
+		"client": [
+			"me.moof.requiem.RequiemClient"
+		],
+		"fabric-datagen": [
+			"me.moof.requiem.RequiemDataGenerator"
+		]
+	},
+	"mixins": [
+		"requiem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
