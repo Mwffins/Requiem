@@ -21,6 +21,5 @@ public class RequiemModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(RequiemItems.SOUL_SICKLES, Models.GENERATED);
     }
 }
