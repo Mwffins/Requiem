@@ -1,5 +1,8 @@
 package me.moof.requiem;
 
+import me.moof.requiem.registry.RequiemBlocks;
+import me.moof.requiem.registry.RequiemItemGroups;
+import me.moof.requiem.registry.RequiemItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +15,8 @@ public class Requiem implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		RequiemItems.registerModItems();
+		RequiemBlocks.registerModBlocks();
+		RequiemItemGroups.registerItemGroups();
 	}
 }
