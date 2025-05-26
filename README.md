@@ -14,4 +14,4 @@ See the `LICENSE` file for details.
 
 ---
 
-*Created by Moof
+*Created by Moof*
